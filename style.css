@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Roboto", Sans;
+  background-color: rgba(0, 0, 0, 0.925);
+}
+
+header {
+  padding-top: 2.5%;
+}
+header section {
+  text-align: center;
+}
+header nav {
+  justify-content: center;
+  max-width: 500px;
+  background-color: black;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  border: solid rgb(85, 84, 84) 1px;
+  border-radius: 1.5rem;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+header nav img {
+  width: 25px;
+  padding-left: 10px;
+}
+header ul {
+  align-content: center;
+  list-style-type: none;
+}
+header ul .signup {
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  padding: 5px 15px 5px 15px;
+}
+header ul li {
+  padding: 10px;
+  display: inline;
+}
+header ul li a {
+  text-decoration: none;
+  color: rgb(219, 210, 210);
+}
+
+main .firstSection {
+  display: block;
+  text-align: center;
+  padding-top: 5rem;
+}
+main .firstSection a {
+  background-color: black;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border: solid rgb(85, 84, 84) 1px;
+  border-radius: 1.5rem;
+  padding: 0.5%;
+}
+main .firstSection .new {
+  background-color: rgb(0, 255, 85);
+  padding: 0px 7px 0px 7px;
+  border-radius: 1rem;
+  margin-right: 5px;
+  margin-left: 2.5px;
+}
+main .firstSection .new strong {
+  margin-left: 2.5px;
+}
+
+.secondSection h2 {
+  color: white;
+  text-align: center;
+  font-size: 3.5rem;
+}
+.secondSection .h2-div {
+  padding-top: 1.5rem;
+  padding-bottom: 2.5%;
+}
+.secondSection .h2-div .greenHighlight {
+  color: rgb(0, 255, 85);
+}
+.secondSection p {
+  color: rgb(189, 186, 186);
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.thirdSection {
+  padding: 5%;
+  text-align: center;
+}
+.thirdSection form {
+  color: rgb(170, 189, 192);
+  display: inline;
+  background-color: black;
+  border: solid rgb(85, 84, 84) 1px;
+  border-radius: 1.5rem;
+  text-align: center;
+  padding: 1%;
+}
+.thirdSection form #email {
+  padding-left: 1rem;
+}
+.thirdSection form input {
+  background-color: rgb(0, 0, 0);
+}
+.thirdSection .button {
+  border-radius: 1.5rem;
+  background-color: white;
+  color: black;
+  padding: 1%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-right: -1rem;
+}
+
+footer section {
+  text-align: center;
+  padding-top: 5%;
+}
+footer section p {
+  color: rgb(189, 186, 186);
+}
+footer section img {
+  width: 100px;
+}
+footer section .img2 {
+  width: 50px;
+}
+footer section .img4 {
+  width: 60px;
+}
+footer section figure {
+  margin-top: 1%;
+}/*# sourceMappingURL=style.css.map */
